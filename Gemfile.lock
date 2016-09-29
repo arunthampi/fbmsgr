@@ -1,0 +1,39 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.4.0)
+    botmetrics-rb (0.0.9)
+      http (~> 2.0.0)
+      json (~> 1.8.3)
+    domain_name (0.5.20160615)
+      unf (>= 0.0.5, < 1.0.0)
+    facebook-messenger (0.10.0)
+      httparty (~> 0.13, >= 0.13.7)
+      rack (>= 1.6.4)
+    http (2.0.3)
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-form_data (~> 1.0.1)
+      http_parser.rb (~> 0.6.0)
+    http-cookie (1.0.2)
+      domain_name (~> 0.5)
+    http-form_data (1.0.1)
+    http_parser.rb (0.6.0)
+    httparty (0.14.0)
+      multi_xml (>= 0.5.2)
+    json (1.8.3)
+    multi_xml (0.5.5)
+    rack (2.0.1)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  botmetrics-rb
+  facebook-messenger (~> 0.10.0)
+
+BUNDLED WITH
+   1.12.4
